@@ -14,8 +14,18 @@ RUN apt-get update --fix-missing && \
     apt-get install -y openjdk-8-jdk && \
     apt-get clean
 
-# Install Kotlin manually
+# Install Kotlin
 RUN curl -LO https://github.com/JetBrains/kotlin/releases/download/v1.9.10/kotlin-compiler-1.9.10.zip && \
     apt-get install -y unzip && \
     unzip kotlin-compiler-1.9.10.zip -d /opt/kotlin && \
     ln -s /opt/kotlin/kotlinc/bin/* /usr/local/bin/
+
+# Install Gradle
+COPY gradle-8.7-bin.zip /tmp/
+
+RUN apt-get install -y unzip && \
+    unzip /tmp/gradle-8.7-bin.zip -d /opt/gradle && \
+    ln -s /opt/gradle/gradle-8.7/bin/gradle /usr/local/bin/gradle
+
+COPY app /app
+WORKDIR /app
