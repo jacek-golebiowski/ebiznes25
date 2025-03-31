@@ -1,7 +1,5 @@
 ## Docker Hub
 
-Do kazdego zadania nalezy przygotowac demo za pomocą https://obsproject.com/, a film (skompresowany) nalezy umiescic w katalogu demos.
-
 ## Task 01
 
 ✅ 3.0 obraz ubuntu z Pythonem w wersji 3.10 https://github.com/jacek-golebiowski/ebiznes25/commit/cd2c5dff4a0356237cfe9b291322764ac88d57b4
@@ -22,13 +20,13 @@ Kod: ./Task_01
 
 ## Task 02
 
-❌ 3.0 Należy stworzyć kontroler do Produktów
+✅ 3.0 Należy stworzyć kontroler do Produktów https://github.com/jacek-golebiowski/ebiznes25/commit/3a99f47e77492015980cf8d65ced7db2a8662b72
 
-❌ 3.5 Do kontrolera należy stworzyć endpointy zgodnie z CRUD - dane
-pobierane z listy
+✅ 3.5 Do kontrolera należy stworzyć endpointy zgodnie z CRUD - dane
+pobierane z listy https://github.com/jacek-golebiowski/ebiznes25/commit/a0242fa1402f7f9228c5ea8730a95f7d8eb6c352
 
-❌ 4.0 Należy stworzyć kontrolery do Kategorii oraz Koszyka + endpointy
-zgodnie z CRUD
+✅ 4.0 Należy stworzyć kontrolery do Kategorii oraz Koszyka + endpointy
+zgodnie z CRUD https://github.com/jacek-golebiowski/ebiznes25/commit/e9ffafa4d5974083b4eb9a84ded0407a426b6b6e
 
 ❌ 4.5 Należy aplikację uruchomić na dockerze (stworzyć obraz) oraz dodać
 skrypt uruchamiający aplikację via ngrok
@@ -36,6 +34,7 @@ skrypt uruchamiający aplikację via ngrok
 ❌ 5.0 Należy dodać konfigurację CORS dla dwóch hostów dla metod CRUD
 
 Kod: ./Task_02
+./demos/Task_02.mp4
 
 ## Task 03
 
@@ -64,5 +63,3 @@ Kod: ./Task_03
 ❌ 5.0 
 
 Kod: ./Task_04
-
-
