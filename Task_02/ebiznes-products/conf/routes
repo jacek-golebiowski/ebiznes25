@@ -16,3 +16,14 @@ POST    /products              controllers.ProductController.add
 PUT     /products/:id          controllers.ProductController.update(id: Int)
 DELETE  /products/:id          controllers.ProductController.delete(id: Int)
 
+GET     /categories             controllers.CategoryController.getAll
+GET     /categories/:id         controllers.CategoryController.getById(id: Int)
+POST    /categories             controllers.CategoryController.add
+PUT     /categories/:id         controllers.CategoryController.update(id: Int)
+DELETE  /categories/:id         controllers.CategoryController.delete(id: Int)
+
+GET     /cart                   controllers.CartController.getAll
+GET     /cart/:id               controllers.CartController.getById(id: Int)
+POST    /cart                   controllers.CartController.add
+PUT     /cart/:id               controllers.CartController.update(id: Int)
+DELETE  /cart/:id               controllers.CartController.delete(id: Int)
