@@ -1,5 +1,7 @@
 ## Docker Hub
 
+Do kazdego zadania nalezy przygotowac demo za pomocą https://obsproject.com/, a film (skompresowany) nalezy umiescic w katalogu demos.
+
 ## Task 01
 
 ✅ 3.0 obraz ubuntu z Pythonem w wersji 3.10 https://github.com/jacek-golebiowski/ebiznes25/commit/cd2c5dff4a0356237cfe9b291322764ac88d57b4
@@ -30,7 +32,34 @@ Kod: ./Task_01
 
 ❌ 5.0 
 
-Kod:
+Kod: ./Task_02
+
+## Task 03
+
+❌ 3.0 
+
+❌ 3.5 
+
+❌ 4.0 
+
+❌ 4.5 
+
+❌ 5.0 
+
+Kod: ./Task_03
+
+## Task 04
+
+❌ 3.0 
+
+❌ 3.5 
+
+❌ 4.0 
+
+❌ 4.5 
+
+❌ 5.0 
+
+Kod: ./Task_04
 
 
-Do kazdego zadania nalezy przygotowac demo za pomocą https://obsproject.com/, a film (skompresowany) nalezy umiescic w katalogu demos.
