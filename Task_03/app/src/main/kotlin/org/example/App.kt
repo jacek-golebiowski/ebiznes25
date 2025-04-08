@@ -49,8 +49,5 @@ fun main() = runBlocking {
     val channelId = env["DISCORD_CHANNEL_ID"]
     val message = "✅ Hello from the Kotlin bot"
 
-    println("DEBUG: Token being used is → '$token'")
-    println("DEBUG: Channel ID being used is → '$channelId'")
-
     sendDiscordMessage(token!!, channelId!!, message)
 }
