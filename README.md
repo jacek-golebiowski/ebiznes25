@@ -18,6 +18,8 @@ przez CMD oraz gradle https://github.com/jacek-golebiowski/ebiznes25/commit/d501
 
 Kod: ./Task_01
 
+./demos/Task_01.mp4
+
 ## Task 02
 
 ✅ 3.0 Należy stworzyć kontroler do Produktów https://github.com/jacek-golebiowski/ebiznes25/commit/3a99f47e77492015980cf8d65ced7db2a8662b72
