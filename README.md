@@ -39,15 +39,18 @@ Kod: ./Task_02
 
 ## Task 03
 
-❌ 3.0 
+❌ 3.0 Należy stworzyć aplikację kliencką w Kotlinie we frameworku Ktor,
+która pozwala na przesyłanie wiadomości na platformę Discord
 
-❌ 3.5 
+❌ 3.5 Aplikacja jest w stanie odbierać wiadomości użytkowników z
+platformy Discord skierowane do aplikacji (bota)
 
-❌ 4.0 
+❌ 4.0 Zwróci listę kategorii na określone żądanie użytkownika
 
-❌ 4.5 
+❌ 4.5 Zwróci listę produktów wg żądanej kategorii
 
-❌ 5.0 
+❌ 5.0 Aplikacja obsłuży dodatkowo jedną z platform: Slack, Messenger,
+Webex
 
 Kod: ./Task_03
 
@@ -64,3 +67,17 @@ Kod: ./Task_03
 ❌ 5.0 
 
 Kod: ./Task_04
+
+## Task 05
+
+❌ 3.0 
+
+❌ 3.5 
+
+❌ 4.0 
+
+❌ 4.5 
+
+❌ 5.0 
+
+Kod: ./Task_05

@@ -1,4 +1,22 @@
-# Ignore large Gradle distribution zip
 Task_01/gradle-8.7-bin.zip
 
+Task_03/.env
+
+# Gradle build
+**/build/
 **/.gradle/
+.gradle/
+*.iml
+*.log
+
+# IDE files
+.idea/
+*.ipr
+*.iws
+
+# Distribution jars/zips
+*.jar
+*.zip
+
+# OS junk
+.DS_Store
