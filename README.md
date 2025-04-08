@@ -39,8 +39,8 @@ Kod: ./Task_02
 
 ## Task 03
 
-❌ 3.0 Należy stworzyć aplikację kliencką w Kotlinie we frameworku Ktor,
-która pozwala na przesyłanie wiadomości na platformę Discord
+✅ 3.0 Należy stworzyć aplikację kliencką w Kotlinie we frameworku Ktor,
+która pozwala na przesyłanie wiadomości na platformę Discord https://github.com/jacek-golebiowski/ebiznes25/commit/185f0c3f5139ffa957b67255c905437bfdfe9720 | https://github.com/jacek-golebiowski/ebiznes25/commit/50c109c10acaa05e200251ee4925ac25355a0144
 
 ❌ 3.5 Aplikacja jest w stanie odbierać wiadomości użytkowników z
 platformy Discord skierowane do aplikacji (bota)
@@ -53,6 +53,8 @@ platformy Discord skierowane do aplikacji (bota)
 Webex
 
 Kod: ./Task_03
+
+./demos/Task_03.mp4
 
 ## Task 04
 
