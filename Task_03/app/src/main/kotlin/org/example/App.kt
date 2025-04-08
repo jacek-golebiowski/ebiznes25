@@ -1,5 +1,6 @@
 package org.example
 
+import java.io.File
 import io.ktor.client.*
 import io.ktor.client.call.*
 import io.ktor.client.engine.cio.*
@@ -9,7 +10,6 @@ import io.ktor.http.*
 import io.ktor.serialization.kotlinx.json.*
 import kotlinx.serialization.Serializable
 import kotlinx.coroutines.*
-import io.github.cdimascio.dotenv.dotenv
 
 @Serializable
 data class DiscordMessage(val content: String)
@@ -33,18 +33,24 @@ suspend fun sendDiscordMessage(token: String, channelId: String, message: String
     client.close()
 }
 
-fun main() = runBlocking {
-    val dotenv = dotenv {
-        filename = "../.env"
-        ignoreIfMalformed = true
-        ignoreIfMissing = false
-    }
-
-
-    val token = dotenv["DISCORD_BOT_TOKEN"]
-    val channelId = dotenv["DISCORD_CHANNEL_ID"]
-    val message = "Hello from a safe and secure Kotlin bot"
-
-    sendDiscordMessage(token, channelId, message)
+fun loadEnv(): Map<String, String> {
+    val envFile = File("../.env")
+    return envFile.readLines()
+        .filter { it.isNotBlank() && !it.startsWith("#") }
+        .associate {
+            val (key, value) = it.split("=", limit = 2)
+            key.trim() to value.trim()
+        }
 }
 
+fun main() = runBlocking {
+    val env = loadEnv()
+    val token = env["DISCORD_BOT_TOKEN"]
+    val channelId = env["DISCORD_CHANNEL_ID"]
+    val message = "✅ Hello from the Kotlin bot"
+
+    println("DEBUG: Token being used is → '$token'")
+    println("DEBUG: Channel ID being used is → '$channelId'")
+
+    sendDiscordMessage(token!!, channelId!!, message)
+}
