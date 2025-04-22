@@ -60,15 +60,15 @@ Kod: ./Task_03
 
 ## Task 04
 
-❌ 3.0 
+❌ 3.0 Należy stworzyć aplikację we frameworki echo w j. Go, która będzie miała kontroler Produktów zgodny z CRUD 
 
-❌ 3.5 
+❌ 3.5 Należy stworzyć model Produktów wykorzystując gorm oraz wykorzystać model do obsługi produktów (CRUD) w kontrolerze (zamiast listy)
 
-❌ 4.0 
+❌ 4.0 Należy dodać model Koszyka oraz dodać odpowiedni endpoint
 
-❌ 4.5 
+❌ 4.5 Należy stworzyć model kategorii i dodać relację między kategorią, a produktem
 
-❌ 5.0 
+❌ 5.0 pogrupować zapytania w gorm’owe scope'y
 
 Kod: ./Task_04
 
@@ -85,3 +85,17 @@ Kod: ./Task_04
 ❌ 5.0 
 
 Kod: ./Task_05
+
+## Task 06
+
+❌ 3.0 
+
+❌ 3.5 
+
+❌ 4.0 
+
+❌ 4.5 
+
+❌ 5.0 
+
+Kod: ./Task_06
