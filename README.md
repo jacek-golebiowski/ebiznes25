@@ -76,17 +76,24 @@ Kod: ./Task_04
 
 ## Task 05
 
-❌ 3.0 
+✅ 3.0 W ramach projektu należy stworzyć dwa komponenty: Produkty oraz
+Płatności; Płatności powinny wysyłać do aplikacji serwerowej dane, a w
+Produktach powinniśmy pobierać dane o produktach z aplikacji
+serwerowej; https://github.com/jacek-golebiowski/ebiznes25/commit/2b02b1118a595942e2b52502e72d98bc6f429ce6
 
-❌ 3.5 
+✅ 3.5 Należy dodać Koszyk wraz z widokiem; należy wykorzystać routing https://github.com/jacek-golebiowski/ebiznes25/commit/2b02b1118a595942e2b52502e72d98bc6f429ce6
 
-❌ 4.0 
+✅ 4.0 Dane pomiędzy wszystkimi komponentami powinny być przesyłane za
+pomocą React hooks https://github.com/jacek-golebiowski/ebiznes25/commit/2b02b1118a595942e2b52502e72d98bc6f429ce6
 
-❌ 4.5 
+❌ 4.5 Należy dodać skrypt uruchamiający aplikację serwerową oraz
+kliencką na dockerze via docker-compose
 
-❌ 5.0 
+❌ 5.0 Należy wykorzystać axios’a oraz dodać nagłówki pod CORS
 
 Kod: ./Task_05
+
+./demos/Task_05.mp4
 
 ## Task 06
 
