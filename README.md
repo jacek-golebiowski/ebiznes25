@@ -98,10 +98,10 @@ Kod: ./Task_05
 ## Task 06
 
 ✅ 3.0 Należy stworzyć 20 przypadków testowych w CypressJS lub Selenium
-(Kotlin, Python, Java, JS, Go, Scala)
+(Kotlin, Python, Java, JS, Go, Scala) https://github.com/jacek-golebiowski/ebiznes25/commit/66527fece90cc62fe3fa6ce4d935e5c2334131ed
 
 ✅ 3.5 Należy rozszerzyć testy funkcjonalne, aby zawierały minimum 50
-asercji
+asercji https://github.com/jacek-golebiowski/ebiznes25/commit/66527fece90cc62fe3fa6ce4d935e5c2334131ed
 
 ❌ 4.0 Należy stworzyć testy jednostkowe do wybranego wcześniejszego
 projektu z minimum 50 asercjami
@@ -112,6 +112,8 @@ minimum jednym scenariuszem negatywnym per endpoint
 ❌ 5.0 Należy uruchomić testy funkcjonalne na Browserstacku
 
 Kod: ./Task_06
+
+./demos/Task_06.mp4
 
 ## Task 07
 
