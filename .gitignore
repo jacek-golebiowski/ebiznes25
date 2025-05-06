@@ -23,3 +23,8 @@ Task_03/.env
 
 app.db
 *.db
+
+node_modules/
+cypress/screenshots/
+cypress/videos/
+cypress/downloads/

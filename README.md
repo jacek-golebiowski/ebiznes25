@@ -97,6 +97,43 @@ Kod: ./Task_05
 
 ## Task 06
 
+✅ 3.0 Należy stworzyć 20 przypadków testowych w CypressJS lub Selenium
+(Kotlin, Python, Java, JS, Go, Scala)
+
+✅ 3.5 Należy rozszerzyć testy funkcjonalne, aby zawierały minimum 50
+asercji
+
+❌ 4.0 Należy stworzyć testy jednostkowe do wybranego wcześniejszego
+projektu z minimum 50 asercjami
+
+❌ 4.5 Należy dodać testy API, należy pokryć wszystkie endpointy z
+minimum jednym scenariuszem negatywnym per endpoint
+
+❌ 5.0 Należy uruchomić testy funkcjonalne na Browserstacku
+
+Kod: ./Task_06
+
+## Task 07
+
+❌ 3.0 Należy dodać litera do odpowiedniego kodu aplikacji serwerowej w
+hookach gita
+
+❌ 3.5 Należy wyeliminować wszystkie bugi w kodzie w Sonarze (kod
+aplikacji serwerowej)
+
+❌ 4.0 Należy wyeliminować wszystkie zapaszki w kodzie w Sonarze (kod
+aplikacji serwerowej)
+
+❌ 4.5 Należy wyeliminować wszystkie podatności oraz błędy bezpieczeństwa
+w kodzie w Sonarze (kod aplikacji serwerowej)
+
+❌ 5.0 Należy wyeliminować wszystkie błędy oraz zapaszki w kodzie
+aplikacji klienckiej
+
+Kod: ./Task_07
+
+## Task 08
+
 ❌ 3.0 
 
 ❌ 3.5 
@@ -107,4 +144,4 @@ Kod: ./Task_05
 
 ❌ 5.0 
 
-Kod: ./Task_06
+Kod: ./Task_08
