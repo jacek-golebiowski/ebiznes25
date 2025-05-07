@@ -3,5 +3,5 @@ projectKey=jacek-golebiowski_ebiznes25
 serverUrl=https://sonarcloud.io
 serverVersion=8.0.0.63051
 dashboardUrl=https://sonarcloud.io/dashboard?id=jacek-golebiowski_ebiznes25
-ceTaskId=AZaqMgZiMHdJUI_kAjdO
-ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AZaqMgZiMHdJUI_kAjdO
+ceTaskId=AZaqPmNL5EQOpKXmNgvk
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AZaqPmNL5EQOpKXmNgvk

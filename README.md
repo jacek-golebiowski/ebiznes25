@@ -117,17 +117,17 @@ Kod: ./Task_06
 
 ## Task 07
 
-❌ 3.0 Należy dodać litera do odpowiedniego kodu aplikacji serwerowej w
-hookach gita
+✅ 3.0 Należy dodać litera do odpowiedniego kodu aplikacji serwerowej w
+hookach gita https://github.com/jacek-golebiowski/ebiznes25/commit/cb34a837e35471925d1aa17f1a52197ec6612716
 
-❌ 3.5 Należy wyeliminować wszystkie bugi w kodzie w Sonarze (kod
-aplikacji serwerowej)
+✅ 3.5 Należy wyeliminować wszystkie bugi w kodzie w Sonarze (kod
+aplikacji serwerowej) https://github.com/jacek-golebiowski/ebiznes25/commit/c93a566b26733d117e3ebd41eab7c7d6fbdbc25d
 
-❌ 4.0 Należy wyeliminować wszystkie zapaszki w kodzie w Sonarze (kod
-aplikacji serwerowej)
+✅ 4.0 Należy wyeliminować wszystkie zapaszki w kodzie w Sonarze (kod
+aplikacji serwerowej) https://github.com/jacek-golebiowski/ebiznes25/commit/c93a566b26733d117e3ebd41eab7c7d6fbdbc25d
 
-❌ 4.5 Należy wyeliminować wszystkie podatności oraz błędy bezpieczeństwa
-w kodzie w Sonarze (kod aplikacji serwerowej)
+✅ 4.5 Należy wyeliminować wszystkie podatności oraz błędy bezpieczeństwa
+w kodzie w Sonarze (kod aplikacji serwerowej) https://github.com/jacek-golebiowski/ebiznes25/commit/c93a566b26733d117e3ebd41eab7c7d6fbdbc25d
 
 ❌ 5.0 Należy wyeliminować wszystkie błędy oraz zapaszki w kodzie
 aplikacji klienckiej
