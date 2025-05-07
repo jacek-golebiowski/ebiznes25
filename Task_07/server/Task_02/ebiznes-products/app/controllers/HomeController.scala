@@ -22,6 +22,6 @@ class HomeController @Inject()(val controllerComponents: ControllerComponents) e
     Ok(views.html.index())
   }
 
-  def badFormatting  =  println("test")
+  def       badFormatting      =      println(  "te      st")
 
 }
