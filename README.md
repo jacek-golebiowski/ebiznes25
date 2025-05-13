@@ -136,9 +136,9 @@ Kod: ./Task_07
 
 ## Task 08
 
-❌ 3.0 logowanie przez aplikację serwerową (bez Oauth2)
+✅ 3.0 logowanie przez aplikację serwerową (bez Oauth2) https://github.com/jacek-golebiowski/ebiznes25/commit/fdada968eb24dbedc5859b01b3386e1109709cc6
 
-❌ 3.5 rejestracja przez aplikację serwerową (bez Oauth2)
+✅ 3.5 rejestracja przez aplikację serwerową (bez Oauth2) https://github.com/jacek-golebiowski/ebiznes25/commit/fdada968eb24dbedc5859b01b3386e1109709cc6
 
 ❌ 4.0 logowanie via Google OAuth2
 
