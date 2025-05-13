@@ -136,7 +136,21 @@ Kod: ./Task_07
 
 ## Task 08
 
-❌ 3.0 
+❌ 3.0 logowanie przez aplikację serwerową (bez Oauth2)
+
+❌ 3.5 rejestracja przez aplikację serwerową (bez Oauth2)
+
+❌ 4.0 logowanie via Google OAuth2
+
+❌ 4.5 logowanie via Facebook lub Github OAuth2
+
+❌ 5.0 zapisywanie danych logowania OAuth2 po stronie serwera
+
+Kod: ./Task_08
+
+## Task 09
+
+❌ 3.0
 
 ❌ 3.5 
 
@@ -146,4 +160,18 @@ Kod: ./Task_07
 
 ❌ 5.0 
 
-Kod: ./Task_08
+Kod: ./Task_09
+
+## Task 10
+
+❌ 3.0
+
+❌ 3.5 
+
+❌ 4.0 
+
+❌ 4.5 
+
+❌ 5.0 
+
+Kod: ./Task_10

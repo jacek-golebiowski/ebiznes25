@@ -1,0 +1,46 @@
+{
+  "produkty": [
+    {
+      "id": "1",
+      "nazwa": "Jabłko",
+      "cena": 3.5
+    },
+    {
+      "id": "2",
+      "nazwa": "Gruszka",
+      "cena": 4.2
+    }
+  ],
+  "platnosci": [
+    {
+      "id": "b903",
+      "imie": "333",
+      "kwota": "3.5"
+    },
+    {
+      "id": "ca9e",
+      "imie": "333",
+      "kwota": "15"
+    },
+    {
+      "id": "0d22",
+      "imie": "ww",
+      "kwota": "1223"
+    },
+    {
+      "id": "cb89",
+      "imie": "",
+      "kwota": ""
+    },
+    {
+      "id": "78cf",
+      "imie": "wwww",
+      "kwota": "12"
+    },
+    {
+      "id": "6547",
+      "imie": "22",
+      "kwota": "12"
+    }
+  ]
+}
