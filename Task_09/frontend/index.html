@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <title>Chat z LLM-em</title>
+  <style>
+    body { font-family: sans-serif; max-width: 600px; margin: 30px auto; }
+    #chat { border: 1px solid #ccc; padding: 15px; height: 300px; overflow-y: scroll; background: #f9f9f9; }
+    .msg { margin: 10px 0; }
+    .user { font-weight: bold; color: #007bff; }
+    .bot { font-weight: bold; color: green; }
+    input, button { padding: 10px; margin-top: 10px; width: 100%; }
+  </style>
+</head>
+<body>
+  <h1>Chat z LLM-em</h1>
+  <div id="chat"></div>
+  <input type="text" id="userInput" placeholder="Napisz wiadomość...">
+  <button onclick="sendMessage()">Wyślij</button>
+
+  <script>
+    async function sendMessage() {
+      const input = document.getElementById("userInput");
+      const message = input.value;
+      if (!message) return;
+
+      appendMessage("Ty", message, "user");
+      input.value = "";
+
+      const response = await fetch("http://localhost:8000/chat", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ message })
+      });
+
+      const data = await response.json();
+      appendMessage("Bot", data.response || "Błąd odpowiedzi", "bot");
+    }
+
+    function appendMessage(sender, text, cssClass) {
+      const chat = document.getElementById("chat");
+      const msg = document.createElement("div");
+      msg.classList.add("msg");
+      msg.innerHTML = `<span class="${cssClass}">${sender}:</span> ${text}`;
+      chat.appendChild(msg);
+      chat.scrollTop = chat.scrollHeight;
+    }
+  </script>
+</body>
+</html>

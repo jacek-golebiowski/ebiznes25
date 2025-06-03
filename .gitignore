@@ -2,6 +2,9 @@ Task_01/gradle-8.7-bin.zip
 
 Task_03/.env
 
+Task_09/chat_server/.env
+Task_09/chat_server/__pycache__
+
 # Gradle build
 **/build/
 **/.gradle/
