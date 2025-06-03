@@ -150,12 +150,12 @@ Kod: ./Task_08
 
 ## Task 09
 
-❌ 3.0 należy stworzyć po stronie serwerowej osobny serwis do łącznia z
-chatGPT do usługi chat
+✅ 3.0 należy stworzyć po stronie serwerowej osobny serwis do łącznia z
+chatGPT do usługi chat https://github.com/jacek-golebiowski/ebiznes25/commit/c4124e01987f5337ca1659e898329588940027e0
 
-❌ 3.5 należy stworzyć interfejs frontowy dla użytkownika, który
+✅ 3.5 należy stworzyć interfejs frontowy dla użytkownika, który
 komunikuje się z serwisem; odpowiedzi powinny być wysyałen do
-frontendowego interfejsu
+frontendowego interfejsu https://github.com/jacek-golebiowski/ebiznes25/commit/c4124e01987f5337ca1659e898329588940027e0
 
 ❌ 4.0 stworzyć listę 5 różnych otwarć oraz zamknięć rozmowy
 
