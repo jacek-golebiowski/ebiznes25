@@ -134,6 +134,8 @@ aplikacji klienckiej
 
 Kod: ./Task_07
 
+./demos/Task_07.mp4
+
 ## Task 08
 
 ✅ 3.0 logowanie przez aplikację serwerową (bez Oauth2) https://github.com/jacek-golebiowski/ebiznes25/commit/fdada968eb24dbedc5859b01b3386e1109709cc6
@@ -147,6 +149,8 @@ Kod: ./Task_07
 ❌ 5.0 zapisywanie danych logowania OAuth2 po stronie serwera
 
 Kod: ./Task_08
+
+./demos/Task_08.mp4
 
 ## Task 09
 
@@ -166,16 +170,24 @@ ograniczenie się jedynie do ubrań oraz samego sklepu) do GPT
 
 Kod: ./Task_09
 
+./demos/Task_09.mp4
+
 ## Task 10
 
-❌ 3.0
+✅ 3.0 Należy stworzyć odpowiednie instancje po stronie chmury na
+dockerze https://github.com/jacek-golebiowski/ebiznes25/commit/c0644eb4c6dc75bf823e4d43d1cf27a7297fef61 | https://github.com/jacek-golebiowski/ebiznes25/commit/bbcd2d027d19252374e67f5a148da8a07be84d09
 
-❌ 3.5 
+❌ 3.5 Stworzyć odpowiedni pipeline w Github Actions do budowania
+aplikacji (np. via fatjar)
 
-❌ 4.0 
+❌ 4.0 Dodać notyfikację mailową o zbudowaniu aplikacji
 
-❌ 4.5 
+❌ 4.5 Dodać krok z deploymentem aplikacji serwerowej oraz klienckiej na
+chmurę
 
-❌ 5.0 
+❌ 5.0 Dodać uruchomienie regresyjnych testów automatycznych
+(funkcjonalnych) jako krok w Actions
 
 Kod: ./Task_10
+
+./demos/Task_10.mp4
