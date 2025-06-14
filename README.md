@@ -177,7 +177,7 @@ Kod: ./Task_09
 ## Task 10
 
 ✅ 3.0 Należy stworzyć odpowiednie instancje po stronie chmury na
-dockerze https://github.com/jacek-golebiowski/ebiznes25/commit/c0644eb4c6dc75bf823e4d43d1cf27a7297fef61 | https://github.com/jacek-golebiowski/ebiznes25/commit/bbcd2d027d19252374e67f5a148da8a07be84d09
+dockerze https://github.com/jacek-golebiowski/ebiznes25/commit/99841897e4947fa76a484acf9e15e2710d9556f7 | https://github.com/jacek-golebiowski/ebiznes25/commit/82a727b3983e34d8e16451fde3ca73a5a38e27b6 
 
 ❌ 3.5 Stworzyć odpowiedni pipeline w Github Actions do budowania
 aplikacji (np. via fatjar)
