@@ -14,7 +14,7 @@ przez CMD oraz gradle https://github.com/jacek-golebiowski/ebiznes25/commit/d501
 
 ❌ 5.0 dodać konfigurację docker-compose
 
-➡️ https://hub.docker.com/r/flubber726/kotlin-sqlite
+➡️ https://hub.docker.com/repository/docker/flubber726/kotlin-sqlite
 
 Kod: ./Task_01
 
