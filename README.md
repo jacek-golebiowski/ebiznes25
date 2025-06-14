@@ -16,6 +16,8 @@ przez CMD oraz gradle https://github.com/jacek-golebiowski/ebiznes25/commit/d501
 
 ➡️ https://hub.docker.com/repository/docker/flubber726/kotlin-sqlite
 
+➡️ docker pull flubber726/kotlin-sqlite:latest
+
 Kod: ./Task_01
 
 ./demos/Task_01.mp4
