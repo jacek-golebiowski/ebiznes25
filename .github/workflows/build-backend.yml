@@ -25,7 +25,7 @@ jobs:
       - name: Build and push backend image
         uses: docker/build-push-action@v5
         with:
-          context: ./backend
-          file: ./backend/Dockerfile
+          context: ./Task_10/backend
+          file: ./Task_10/backend/Dockerfile
           push: true
           tags: flubber726/backend:latest

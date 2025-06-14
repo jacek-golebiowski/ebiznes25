@@ -25,7 +25,7 @@ jobs:
       - name: Build and push frontend image
         uses: docker/build-push-action@v5
         with:
-          context: ./frontend
-          file: ./frontend/Dockerfile
+          context: ./Task_10/frontend
+          file: ./Task_10/frontend/Dockerfile
           push: true
           tags: flubber726/frontend:latest
